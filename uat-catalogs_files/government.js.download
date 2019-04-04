@@ -1,0 +1,1 @@
+$(function(){$(document).on('click','.degree-btn',function(e){e.preventDefault();var gedtPage=$(this).attr('href');console.log(gedtPage);window.open(gedtPage,'1391102432001','width=900,height=900,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;})})
