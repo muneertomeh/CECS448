@@ -92,7 +92,7 @@ button[type="submit"].more-button.white.small {
     margin: 0;
 }
 
-.more-button.white.small:hover, 
+.more-button.white.small:hover,
 button[type="submit"].more-button.white.small:hover {
 	color: #FFFFFF;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(99, 13, 32, 1)), to(rgba(153, 31, 50, 1)));
@@ -185,7 +185,7 @@ h2.large {
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)); /* W3C */
 }
 
-.more-button:before, 
+.more-button:before,
 .more-button:after {
 	position: absolute;
 	top: 0;
@@ -297,7 +297,7 @@ position: relative;
 }
 
 /* GRAY BUTTON */
-.more-button.gray, 
+.more-button.gray,
 input[type="submit"].more-button.gray {
 	background: #e9e9e9;
 	background-image: url(/themes/uat/images/content/more-btn-bg.png); /* fallback */
@@ -364,7 +364,7 @@ button[type="submit"].more-button.white.small {
     margin: 0;
 }
 
-.more-button.white.small:hover, 
+.more-button.white.small:hover,
 button[type="submit"].more-button.white.small:hover {
 	color: #FFFFFF;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(99, 13, 32, 1)), to(rgba(153, 31, 50, 1))); /* Saf4+, Chrome */
@@ -398,7 +398,7 @@ button[type="submit"].more-button.white.small.download:hover:after {
 }
 
 .more-button.white.info:after {
-	background: url(/themes/uat/images/rebuild/layout/sprite-buttons-bg.png) 100% -312px no-repeat;
+	background: url(https://www.uat.edu/themes/uat/images/rebuild/layout/sprite-buttons-bg.png) 100% -312px no-repeat;
 	height: 31px;
 	content: "";
 	display: block;
@@ -407,7 +407,7 @@ button[type="submit"].more-button.white.small.download:hover:after {
 }
 
 .more-button.white.info:hover:after,
-button[type="submit"].more-button.white.small.download:hover:after, 
+button[type="submit"].more-button.white.small.download:hover:after,
 .faculty-info.active .more-button.white.info:after {
 	background-position: 100% -342px;
 }
@@ -427,7 +427,7 @@ button[type="submit"].more-button.white.info {
 
 
 /* MEDIUM BUTTON */
-.more-button.medium, 
+.more-button.medium,
 .more-button.medium:hover {
 	width: 100px !important;
 	height: 25px;
@@ -483,8 +483,8 @@ input[type="submit"].more-button.small {
 
 
 /* RIGHT SIDE BUCKET SPECIFIC BUTTON SETTINGS */
-#bucket-one .more-button, 
-#bucket-two .more-button, 
+#bucket-one .more-button,
+#bucket-two .more-button,
 #bucket-three .more-button {
     position: absolute;
     bottom: 8px;
@@ -494,15 +494,15 @@ input[type="submit"].more-button.small {
 	height: 25px;
 }
 
-#bucket-one .more-button:after, 
-#bucket-two .more-button:after, 
+#bucket-one .more-button:after,
+#bucket-two .more-button:after,
 #bucket-three .more-button:after {
 	background: url(/themes/uat/images/content/sprite-more-btn-bg-small.png) 100% 0;
 	background-repeat: no-repeat;
 }
 
-#bucket-one .more-button:hover:after, 
-#bucket-two .more-button:hover:after, 
+#bucket-one .more-button:hover:after,
+#bucket-two .more-button:hover:after,
 #bucket-three .more-button:hover:after {
 	background: url(/themes/uat/images/content/sprite-more-btn-bg-small.png) 100% -50px;
 	background-repeat: no-repeat;
@@ -551,7 +551,7 @@ input[type="submit"].more-button.small {
 
 .faculty-icons .faculty-info-icon,
 .faculty-icons .faculty-linkedin-icon {
-	background: url(/themes/uat/images/sprite-faculty-icons.png) 0 1px no-repeat;
+	background: url(https://www.uat.edu/themes/uat/images/linkedin-social-color.png) 0 1px no-repeat;
 	background-size: cover;
 	cursor: pointer;
 	width: 16px;
@@ -620,7 +620,7 @@ input[type="submit"].more-button.small {
 #hidden9{display:none; margin-top:5px;}
 #hidden10{display:none; margin-top:5px;}
 #hidden11{display:none; margin-top:5px;}
-#hidden12{display:none; margin-top:5px;} 
+#hidden12{display:none; margin-top:5px;}
 #hidden13{display:none; margin-top:5px;}
 #hidden14{display:none; margin-top:5px;}
 #hidden15{display:none; margin-top:5px;}
@@ -816,11 +816,11 @@ width: 470px;}
 	#contenthead div:nth-child(2){width:99%; float:none;margin-top:30px;}
 	#contenthead div:nth-child(2) img{width:99%; float:none;position: static;}
 	.left-split{ float: none; width: 99%; border-right: none; padding-right: 0;}
-	.right-split{float: none; width: 99%; margin-right: 0;} 
+	.right-split{float: none; width: 99%; margin-right: 0;}
 	.left-col{ float: none; width: 99%; border-right: none; padding-right: 0;}
-	.right-col{float: none; width: 99%; margin-right: 0;border-left: none; padding-left: 0px; } 
-	.right-col a{float: none !important;} 
-	.right-col .subhead{margin-top: 20px !important;} 
+	.right-col{float: none; width: 99%; margin-right: 0;border-left: none; padding-left: 0px; }
+	.right-col a{float: none !important;}
+	.right-col .subhead{margin-top: 20px !important;}
 	.second_header{display:none;}
 	.bigtext{font-size: 50px;}
 	.3-col {width: 100%;float: none;}
@@ -847,7 +847,7 @@ width: 470px;}
 	.admissions-right{width:90%; float:none;margin-left:20px;}
 	.bigbtn{border-left: solid 1px #b3b3b3;border-radius: 10px;font-size:8px;width:285px!important;}
 
-}	
+}
 
 
 @media only screen and (min-width:490px) and (max-width: 959px) {
@@ -887,10 +887,10 @@ width: 470px;}
 }
 
 <!--[if IE]>
-			
-.lrg-title{margin-top: 15px!important;}	
-.interval-title{margin-top: 15px!important;}	
+
+.lrg-title{margin-top: 15px!important;}
+.interval-title{margin-top: 15px!important;}
 .lh-adjust{margin-top: 0px!important}
 .bigtext {margin-top: 25px!important; margin-bottom: -15px;}
-	
+
 <![endif]-->
