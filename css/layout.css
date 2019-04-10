@@ -1657,10 +1657,10 @@ footer.container h4{
         display:none
     }
     nav ul{
-        /*display:none*/
+        /*display:none
     }
     nav select{
-        display:inline-block
+        display:inline-block*/
     }
     .mob-topnav{
         color:#828181;
@@ -1833,6 +1833,7 @@ footer.container h4{
     }
     footer.m-footer{
         display:block;
+        width:100%;
         float:left;
         padding-top:10px;
         margin-top:50px;
@@ -1957,10 +1958,10 @@ footer.container h4{
         display:none
     }
     nav ul{
-        /*display:none*/
+        /*display:none
     }
     nav select{
-        display:inline-block
+        display:inline-block*/
     }
     .mob-topnav{
         color:#828181;
@@ -2291,9 +2292,9 @@ footer.container h4{
 }
 @media only screen and (max-width: 767px){
     .social-icons li a .social{
-        height:32px;
+        height:16px;
         margin:0 20px 20px 0;
-        width:32px
+        width:16px
     }
     .social-icons li a .social.facebook{
         background-position:0 0
@@ -2513,6 +2514,7 @@ input#gsc-i-id1{
     border-radius:0 !important
 }
 .gsc-search-box tbody{
+    left: 100px ;
     margin:0;
     padding:0;
     border:0;
