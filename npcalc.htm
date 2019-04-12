@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
     <title>Net Price Calculator</title>
+    <link href="css/rebuild.css" rel="stylesheet">
     <style type="text/css">
         body
         {
@@ -1077,10 +1078,9 @@ TGA_NFAFSA = ['1375','0','0'];
         <img id="imgInstitutionBanner" src="https://www.uat.edu/themes/uat/images/bannerplace.gif" alt="" title="" style="border:0px;">
     </div>
     <div></div>
-    <table width="796px" height="250px" cellspacing="0" cellpadding="0" border="0">
+    <table width="525px" height="250px" cellspacing="0" cellpadding="0" border="0">
     <tbody><tr>
-        <td style="background: url(https://www.uat.edu/themes/uat/images/border_left.png) repeat-y;" width="12px"></td>
-        <td style="background-color:#fffef5;padding-top:17px;padding-bottom:20px;" valign="top" align="left">
+        <td style="background-color:#C70039;padding-top:17px;padding-bottom:20px;" valign="top" align="left">
             
             <div id="divInstitutionNameWindow" style="position: absolute; width: 436px;">
                 <div style="position:relative; top:120px; left:54px; ">
@@ -1132,9 +1132,9 @@ TGA_NFAFSA = ['1375','0','0'];
                     <div style="">
                         <table style="table-layout:fixed;" width="525px" cellspacing="0" cellpadding="0" border="0">
                             <tbody><tr>
-                                <td width="10px" valign="top" align="left"><img src="https://www.uat.edu/themes/uat/images/npcb_top_left.gif" alt="" title=""></td>
+                                <td width="10px" valign="top" align="left"><img src="" alt="" title=""></td>
                                 <td style="background-image:url(https://www.uat.edu/themes/uat/images/npcb_top_center.gif);" valign="top" align="left"></td>
-                                <td width="10px" valign="top" align="left"><img src="https://www.uat.edu/themes/uat/images/npcb_top_right.gif" alt="" title=""></td>
+                                <td width="10px" valign="top" align="left"><img src="" alt="" title=""></td>
                             </tr>
                             <tr>    
                                 <td style="background:url(https://www.uat.edu/themes/uat/images/npcb_middle_left.gif) repeat-y;" valign="top" align="left"></td>
@@ -1155,7 +1155,7 @@ TGA_NFAFSA = ['1375','0','0'];
                                         For more information on applying for Federal student aid, go to <a href="http://www.fafsa.ed.gov/" target="_blank">http://www.fafsa.ed.gov/</a>                                        
                                         <div style="font-size:11px; margin-top:25px; margin-bottom:10px;line-height:14px;"><b>Note:</b> Any information that you provide on this site is confidential. The Net Price Calculator does not store your responses or ask for personal identifying information of any kind.</div>
                                         <div style="text-align:center; margin-top:30px;">
-                                            <a href="JavaScript:GoNext()"><img src="images/button_iagree.gif" alt="I Agree" title="I Agree" style="border-width:0px;"></a>                                        
+                                            <a href="JavaScript:GoNext()"><button class="netPriceCalcButton">I Agree</button></a>                                        
                                         </div>                                        
                                     </div>
                                 
@@ -1194,9 +1194,9 @@ TGA_NFAFSA = ['1375','0','0'];
                                         <tr>
                                             <td style="font-weight:bold;" width="140px" valign="top" align="left">&nbsp;</td>
                                             <td style="padding-left:6px;padding-bottom:0px; padding-top:10px;" valign="top" align="left">
-                                                <a href="javascript:GoPrevious()"><img src="https://www.uat.edu/themes/uat/images/icon_previous.gif" alt="Previous" title="Previous" border="0"></a>
+                                                <a href="javascript:GoPrevious()"><button class="netPriceCalcButton">Previous</button></a>
                                                 &nbsp;&nbsp;
-                                                <a href="javascript:GoNext()"><img src="https://www.uat.edu/themes/uat/images/icon_continue.gif" alt="Continue" title="Continue" border="0"></a>
+                                                <a href="javascript:GoNext()"><button class="netPriceCalcButton">Continue</button></a>
                                             </td>
                                         </tr>
                                         </tbody></table>
@@ -1373,9 +1373,9 @@ TGA_NFAFSA = ['1375','0','0'];
                                     <div id="dv_npc_s5" style="display:none;">
                                         <div id="dv_summary" class="summarytable" style="margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;"></div>
                                         <div style="text-align:center;padding-bottom:0px; padding-top:20px;">
-                                            <a href="javascript:ClearVars();GoTo('1');"><img src="https://www.uat.edu/themes/uat/images/icon_modify.gif" alt="Modify" title="Modify" border="0"></a>
+                                            <a href="javascript:ClearVars();GoTo('1');"><button class="netPriceCalcButton">Modify</button></a>
                                                 &nbsp;&nbsp;
-                                            <a href="javascript:GoNext()"><img src="https://www.uat.edu/themes/uat/images/icon_continue.gif" alt="Continue" title="Continue" border="0"></a>
+                                            <a href="javascript:GoNext()"><button class="netPriceCalcButton">Continue</button></a>
                                         </div>
                                     </div>
                                 
@@ -1385,7 +1385,7 @@ TGA_NFAFSA = ['1375','0','0'];
                                     <div id="dv_npc_s6" style="display:none; margin-left:50px; margin-top:10px;">
                                         <table style="width:387px;" cellspacing="0" cellpadding="0" border="0">
                                             <tbody><tr>
-                                                <td><img src="https://www.uat.edu/themes/uat/images/notepad_top.jpg" alt=""></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -1395,7 +1395,7 @@ TGA_NFAFSA = ['1375','0','0'];
                                                                 <tbody><tr>
                                                                     <td colspan="2" style="padding-bottom:3px;" valign="top" align="left">
                                                                     &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:bold;color:#cc6600; font-size:14px;">Academic Year: 2014-15</span>
-                                                                    <div><img src="https://www.uat.edu/themes/uat/images/divider_academicyear.gif"></div>
+                                                                    <div></div>
                                                                 </td>
                                                                 </tr>
                                                                  <tr>
@@ -1420,7 +1420,7 @@ TGA_NFAFSA = ['1375','0','0'];
                                                             </tbody></table>
 
                                                             <div style="margin-top:10px; margin-bottom:8px; _margin-top:-2px; _margin-bottom:2px;">
-                                                                <img src="https://www.uat.edu/themes/uat/images/divider_black.gif">
+                                                                
                                                             </div>
 
 
@@ -1442,7 +1442,7 @@ TGA_NFAFSA = ['1375','0','0'];
                                                             </div>
 
                                                             <div style="margin-top:10px; margin-bottom:8px; _margin-top:-2px; _margin-bottom:2px;">
-                                                                <img src="https://www.uat.edu/themes/uat/images/divider_black.gif">
+                                                              
                                                             </div>
 
                                                             <div style="width:329px; height:50px; background-image:url(https://www.uat.edu/themes/uat/images/output_bg_orange.jpg); background-repeat:no-repeat; color:#ffffff; font-weight:bold; ">
@@ -1469,7 +1469,7 @@ TGA_NFAFSA = ['1375','0','0'];
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td><img src="https://www.uat.edu/themes/uat/images/notepad_bottom.jpg" alt=""></td>
+                                                <td></td>
                                             </tr>
                                         </tbody></table>
                                     </div>
@@ -1484,9 +1484,9 @@ TGA_NFAFSA = ['1375','0','0'];
                                                     <tbody><tr>
                                                         <td style="font-weight:bold;" width="140px" valign="top" align="left">&nbsp;</td>
                                                         <td style="padding-left:6px;padding-bottom:0px; padding-top:10px;" valign="top" align="left">
-                                                            <a href="javascript:GoPrevious()"><img src="https://www.uat.edu/themes/uat/images/icon_previous.gif" alt="Previous" title="Previous" border="0"></a>
+                                                            <a href="javascript:GoPrevious()"><button class="netPriceCalcButton">Previous</button></a>
                                                             &nbsp;&nbsp;
-                                                            <a href="javascript:StartOver();"><img src="https://www.uat.edu/themes/uat/images/icon_startover.gif" alt="Start Over" title="Start Over" border="0"></a>
+                                                            <a href="javascript:StartOver();"><button class="netPriceCalcButton">Start Over</button></a>
                                                         </td>
                                                     </tr>
                                                 </tbody></table>
@@ -1526,9 +1526,9 @@ TGA_NFAFSA = ['1375','0','0'];
                             <td style="background:url(https://www.uat.edu/themes/uat/images/npcb_middle_right.gif) repeat-y;" valign="top" align="left"></td>
                         </tr>
                         <tr>
-                            <td width="10px" valign="top" align="left"><img src="https://www.uat.edu/themes/uat/images/npcb_bottom_left.gif" alt="" title=""></td>
+                            <td width="10px" valign="top" align="left"><img src="" alt="" title=""></td>
                             <td style="background-image:url(https://www.uat.edu/themes/uat/images/npcb_bottom_center.gif);" valign="top" align="left"></td>
-                            <td width="10px" valign="top" align="left"><img src="https://www.uat.edu/themes/uat/images/npcb_bottom_right.gif" alt="" title=""></td>
+                            <td width="10px" valign="top" align="left"><img src="" alt="" title=""></td>
                         </tr>
                         </tbody></table>
                     </div>
